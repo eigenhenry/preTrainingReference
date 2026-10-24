@@ -1,0 +1,15 @@
+# Python 3.12 (tested on 3.12; numpy 1.26.4 does not support Python 3.13+).
+# numpy stays <2 because the reference `rbo` package requires it.
+# macOS: XGBoost needs the OpenMP runtime -> `brew install libomp` (or install xgboost via conda).
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.17.1
+scikit-learn==1.9.1
+xgboost==3.4.1
+shap==0.49.1
+rbo==0.1.3
+matplotlib==3.11.2
+seaborn==0.13.2
+jupyter
+ipykernel
+ipywidgets
